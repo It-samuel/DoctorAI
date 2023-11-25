@@ -2,6 +2,7 @@ import { StyleSheet, Text, View,Image } from 'react-native'
 import React from 'react'
 
 export default function SplashScreen({navigation}) {
+  // rendering splash screen
     setTimeout(() =>{
         navigation.navigate('Onboarding')
     }, 4000)

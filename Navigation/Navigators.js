@@ -10,6 +10,7 @@ import Onboarding from '../Screens/Onboarding';
 const Stack = createNativeStackNavigator();
 
 export default function Navigators() {
+    // initializing screen navigations
   return (
    <NavigationContainer>
     <Stack.Navigator>

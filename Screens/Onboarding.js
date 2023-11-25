@@ -5,6 +5,7 @@ import { WebView } from 'react-native-webview';
 
 const url = 'healthcare-bot-wssuuaxcz4ai4.azurewebsites.net/';
 export default function Onboarding() {
+// functions for rendering the doctors interaction screen
 
   const [modalVisible, setModalVisible] = useState(false);
   const openModal = () => {
