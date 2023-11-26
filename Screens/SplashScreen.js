@@ -4,7 +4,7 @@ import React from 'react'
 export default function SplashScreen({navigation}) {
   // rendering splash screen
     setTimeout(() =>{
-        navigation.navigate('Onboarding')
+        navigation.replace('Onboarding')
     }, 4000)
       return (
         <View style={styles.container}>
